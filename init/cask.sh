@@ -31,6 +31,7 @@ spotify
 postman
 notion
 rectangle
+signal
 tuple
 "
 

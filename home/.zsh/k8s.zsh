@@ -1,4 +1,4 @@
-export KUBECONFIG=~/.kube/config-local:~/.kube/config-release-eks:~/.kube/config-bronn-eks-c1
+export KUBECONFIG=~/.kube/config-local:~/.kube/config-release-eks:~/.kube/config-bronn-eks-c1:~/.kube/layer0-dev:~/.kube/layer0-sbx
 
 source <(kubectl completion zsh)  # setup autocomplete in zsh into the current shell
 

@@ -15,32 +15,33 @@ autojump
 awscli
 bat
 gettext
+gh
 git
+go
 grep
+helm
 htop
+jq
+k9s
+kubernetes-cli
+kustomize
+nvm
 pv
 rbenv
 ruby-build
 screen
 stern
+tfenv
 tree
 vim
 watch
-wget
-kubernetes-cli
-helm
-tfenv
-k9s
-jq
-gh
-kustomize
-go
 weaveworks/tap/eksctl
+wget
 "
 
 for f in $formulae; do
   echo ">> $f"
-  brew install $f
+  arch -arm64 brew install $f
 done
 
 # Audiophile

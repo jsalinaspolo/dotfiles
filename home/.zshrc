@@ -1,21 +1,13 @@
-source ~/.zsh/prompt.zsh
 source ~/.zsh/antigen.zsh
-source ~/.zsh/rbenv.zsh
 source ~/.zsh/sdkman.zsh
-#source ~/.zsh/nvm.zsh
 source ~/.zsh/k8s.zsh
 
 unalias gk
 
 alias dk='docker kill $(docker ps -q) && docker rm $(docker ps -qa) && docker volume rm $(docker volume ls -q)'
 alias ops='eval $(op signin auth0)'
-#alias jwt-decode() {
-#	jq -R '{"header": split(".") | .[0] | @base64d | fromjson, "payload": split(".") | .[1] | @base64d | fromjson}' <<< "$1"
-#}
 
 export PATH=$PATH:$(go env GOPATH)/bin
-
-#[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

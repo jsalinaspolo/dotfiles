@@ -8,6 +8,7 @@ alias dk='docker kill $(docker ps -q) && docker rm $(docker ps -qa) && docker vo
 alias ops='eval $(op signin auth0)'
 
 export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

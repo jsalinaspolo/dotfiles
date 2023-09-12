@@ -14,6 +14,7 @@ font-fira-mono-for-powerline
 font-inconsolata-for-powerline
 font-source-code-pro-for-powerline
 google-chrome
+arc
 intellij-idea
 jetbrains-toolbox
 insomnia

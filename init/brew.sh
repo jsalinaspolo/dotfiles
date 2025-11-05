@@ -27,6 +27,7 @@ k9s
 kubernetes-cli
 kustomize
 nvm
+postgresql
 pv
 rbenv
 ruby-build

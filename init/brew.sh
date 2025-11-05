@@ -22,6 +22,7 @@ grep
 helm
 htop
 jq
+libpq
 k9s
 kubernetes-cli
 kustomize

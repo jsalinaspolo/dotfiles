@@ -20,6 +20,7 @@ git
 go
 grep
 helm
+herdr
 htop
 jq
 libpq
